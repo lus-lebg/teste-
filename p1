@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ma Banque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ma Banque</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Produits</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Mon Compte</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenue chez Ma Banque</h2>
+            <p>Votre partenaire financier de confiance.</p>
+            <a href="#" class="cta-btn">Découvrir nos offres</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <h3>Comptes courants</h3>
+                    <p>Des solutions adaptées à vos besoins quotidiens.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Prêts personnels</h3>
+                    <p>Réalisez vos projets avec nos offres de prêts.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Assurance</h3>
+                    <p>Protégez ce qui compte le plus avec nos solutions d'assurance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form action="send_email.php" method="POST">
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ma Banque. Tous droits réservés.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="#">Conditions d'utilisation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
